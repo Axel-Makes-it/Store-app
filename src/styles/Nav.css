@@ -1,0 +1,65 @@
+nav {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  border-radius: 6px;
+  margin: -40px 40px;
+  top: 20px;
+  z-index: 100;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  font-family: "Euclid-regular";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav__ul li {
+  cursor: pointer;
+  color: #141414;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+
+.nav__ul li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #141414;
+  bottom: 0;
+  left: 0;
+  transition: width 0.55s ease-in-out;
+}
+
+.nav__ul li:hover::before {
+  width: 100%;
+}
+
+.nav__logo {
+  font-family: "Euclid-bold";
+  font-weight: bolder;
+  font-size: 29px;
+}
+
+@font-face {
+  font-family: "Euclid-regular";
+  src: url("../font/Euclid\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Euclid-bold";
+  src: url("../font/Euclid\ Bold.ttf");
+}

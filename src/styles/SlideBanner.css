@@ -1,0 +1,37 @@
+.slideBanner__section {
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+.slideBanner__ul {
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+  animation: slideBanner 40s linear infinite;
+  white-space: nowrap;
+}
+
+.slideBanner__ul li {
+  margin-right: 20px;
+  color: #ffffff;
+  font-family: "Euclid-regular";
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@keyframes slideBanner {
+  500% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
