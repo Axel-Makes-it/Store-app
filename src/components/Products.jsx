@@ -1,20 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { initializeApp } from "firebase/app";
-
 import rating from "../images/rating.png";
 import "../styles/Products.css";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyB-OuZNK8KQyKPEMYFb_9XjR7wJStPvQfk",
-  authDomain: "hydrant-stripe.firebaseapp.com",
-  projectId: "hydrant-stripe",
-  storageBucket: "hydrant-stripe.appspot.com",
-  messagingSenderId: "128074610329",
-  appId: "1:128074610329:web:09d76ffbb8d55b1f36aa08",
-  measurementId: "G-W2TYGGFD9E",
-};
-
-const app = initializeApp(firebaseConfig);
 
 function Products() {
   const [productCatalog, setProductCatalog] = useState([]);
@@ -70,26 +56,31 @@ function Products() {
   }
 
   return (
-    <section className="products__section-container">
-      {productCatalog.map((product) => (
-        <div className="products__section" key={product.id}>
-          <div className="products__container">
-            <img src={product.images[0]} alt={product.name} width={329.95} />
-            <h2>{product.name}</h2>
-            <div>
-              <img src={rating} alt="rating" />
-              <span>4.9</span>
+    <section className="products__section">
+      <h2>shop your all day essentials</h2>
+      <div className="products__section-container">
+        {productCatalog.map((product) => (
+          <div className="products__section" key={product.id}>
+            <div className="products__container">
+              <img src={product.images[0]} alt={product.name} width={329.95} />
+              <h2>{product.name}</h2>
+              <div className="products__rating">
+                <img src={rating} alt="rating" />
+                <p>4.9</p>
+              </div>
+              <span>
+                $
+                {productPrices[product.id] !== null
+                  ? productPrices[product.id]
+                  : "Price not available"}
+              </span>
+              <button onClick={() => console.log("clicked")}>
+                ADD TO CART
+              </button>
             </div>
-            <span>
-              $
-              {productPrices[product.id] !== null
-                ? productPrices[product.id]
-                : "Price not available"}
-            </span>
-            <button onClick={() => console.log("clicked")}>ADD TO CART</button>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 }
