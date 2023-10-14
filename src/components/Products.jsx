@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";
 import rating from "../images/rating.png";
+import "../styles/Products.css";
 
 const firebaseConfig = {
   apiKey: "AIzaSyB-OuZNK8KQyKPEMYFb_9XjR7wJStPvQfk",
