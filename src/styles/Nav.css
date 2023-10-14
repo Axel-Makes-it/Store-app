@@ -3,7 +3,7 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: sticky;
   border-radius: 6px;
-  margin: -40px 40px;
+  margin: -60px 40px;
   top: 20px;
   z-index: 100;
 }
@@ -52,6 +52,9 @@ nav {
   font-family: "Euclid-bold";
   font-weight: bolder;
   font-size: 29px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 @font-face {

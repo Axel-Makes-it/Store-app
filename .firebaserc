@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "hydrant-stripe",
+    "staging": "hydrant-stripe"
+  },
+  "targets": {},
+  "etags": {}
+}

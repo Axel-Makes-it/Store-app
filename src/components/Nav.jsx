@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Nav.css";
 import cart from "../images/cart.svg";
+import logoIcon from "../images/logoIcon.svg";
 
 function Nav() {
   return (
@@ -11,7 +12,10 @@ function Nav() {
           <li>learn</li>
         </ul>
         <div>
-          <h2 className="nav__logo">hydrant</h2>
+          <h2 className="nav__logo">
+            <img src={logoIcon} alt="logo" width={32} />
+            hydrant
+          </h2>
         </div>
 
         <div>
