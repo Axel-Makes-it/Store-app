@@ -1,0 +1,65 @@
+.posterSection__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.posterSection__section h2 {
+  font-family: "Euclid-bold";
+  font-size: 40.512px;
+  color: #212529;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.posterSection__card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid #141414;
+  border-radius: 8px;
+  margin: 20px;
+  width: 307px;
+  height: 458px;
+  transition: 0.25s;
+}
+
+.posterSection__card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  height: 100%;
+}
+
+.posterSection__card-info:hover {
+  color: #ffffff;
+  background-color: #4f4f4f;
+  cursor: pointer;
+}
+
+.posterSection__card-info h3 {
+  font-family: "Euclid-bold";
+  font-size: 22px;
+  color: #212529;
+}
+
+.posterSection__card-info p {
+  font-family: "Euclid-regular";
+  font-size: 18px;
+  color: #212529;
+}
+
+.posterSection__card-info:hover h3,
+.posterSection__card-info:hover p {
+  color: #ffffff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: all 0.8s;
+}
