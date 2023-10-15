@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Products from "./components/Products";
 import SlideBanner from "./components/SlideBanner";
+import VideoSection from "./components/VideoSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <SlideBanner />
       <Products />
+      <VideoSection />
     </div>
   );
 }

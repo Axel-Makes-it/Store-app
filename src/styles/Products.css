@@ -6,7 +6,7 @@
   flex-direction: column;
   font-family: "Euclid-bold";
   font-size: 40.512px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #212529;
 }
 
@@ -30,7 +30,7 @@
 
 .products__section-container h2 {
   font-family: "Euclid-bold";
-  font-size: 50.512px;
+  font-size: 40.512px;
   color: #212529;
 }
 
@@ -96,4 +96,10 @@
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.products__heading {
+  font-family: "Euclid-bold";
+  font-size: 40.512px;
+  color: #212529;
 }

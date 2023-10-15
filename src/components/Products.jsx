@@ -57,7 +57,7 @@ function Products() {
 
   return (
     <section className="products__section">
-      <h2>shop your all day essentials</h2>
+      <h2 className="products__heading">shop your all day essentials</h2>
       <div className="products__section-container">
         {productCatalog.map((product) => (
           <div className="products__section" key={product.id}>
