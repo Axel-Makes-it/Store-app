@@ -10,9 +10,9 @@ function VideoSection() {
           height="500"
           src="https://www.youtube.com/embed/3O-e5viscs8?si=i27x4r6Y4D9ZQtGM"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <div className="videoSection__heading">
