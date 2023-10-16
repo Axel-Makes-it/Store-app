@@ -100,8 +100,22 @@ a {
   #shop {
     display: none;
   }
-
+  #home {
+    font-size: 14px;
+  }
   #findUs {
     display: none;
+  }
+  #bag {
+    font-size: 14px;
+  }
+  #bag img {
+    width: 20px;
+  }
+  .nav__logo img {
+    width: 26px;
+  }
+  .nav__logo {
+    font-size: 24px;
   }
 }
