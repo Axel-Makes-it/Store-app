@@ -57,6 +57,35 @@ nav {
   gap: 5px;
 }
 
+#bag a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#home a {
+  text-decoration: none;
+  text-decoration: dashed;
+  color: inherit;
+}
+
+.bag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__ul li {
+  text-decoration: none; /* Remove underline */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Optional, to inherit the text color from the parent element */
+}
+
 @font-face {
   font-family: "Euclid-regular";
   src: url("../font/Euclid\ Regular.ttf");
@@ -65,4 +94,14 @@ nav {
 @font-face {
   font-family: "Euclid-bold";
   src: url("../font/Euclid\ Bold.ttf");
+}
+
+@media (max-width: 650px) {
+  #shop {
+    display: none;
+  }
+
+  #findUs {
+    display: none;
+  }
 }

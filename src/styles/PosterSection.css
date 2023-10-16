@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .posterSection__section h2 {
@@ -22,7 +23,19 @@
   margin: 20px;
   width: 307px;
   height: 458px;
-  transition: 0.25s;
+  transition: 0.15s;
+}
+
+.posterSection__card:hover {
+  background-color: #4f4f4f;
+}
+
+.posterSection__card:hover h3 {
+  color: #ffffff;
+}
+
+.posterSection__card:hover p {
+  color: #ffffff;
 }
 
 .posterSection__card-info {
@@ -31,11 +44,12 @@
   gap: 10px;
   padding: 20px;
   height: 100%;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: 0.1s;
 }
 
 .posterSection__card-info:hover {
-  color: #ffffff;
-  background-color: #4f4f4f;
   cursor: pointer;
 }
 
