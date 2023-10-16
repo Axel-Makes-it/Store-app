@@ -6,6 +6,7 @@ function VideoSection() {
     <section className="videoSection__section">
       <div className="videoSection__video">
         <iframe
+          className="video"
           width="960"
           height="500"
           src="https://www.youtube.com/embed/3O-e5viscs8?si=i27x4r6Y4D9ZQtGM"

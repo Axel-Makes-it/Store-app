@@ -8,6 +8,13 @@
   border-color: #f9f1da;
 }
 
+.videoSection__video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .videoSection__heading {
   display: flex;
   flex-direction: column;
@@ -79,6 +86,27 @@
 
   .videoSection__heading {
     width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .videoSection__video {
+    width: 420px;
+    height: 375px;
+  }
+}
+
+@media (max-width: 800px) {
+  .videoSection__video {
+    width: 260px;
+    height: 350.5px;
+  }
+
+  .videoSection__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
