@@ -7,7 +7,7 @@ import PosterSection from "./components/PosterSection";
 import Products from "./components/Products";
 import SlideBanner from "./components/SlideBanner";
 import VideoSection from "./components/VideoSection";
-import CartPage from "./components/CartPage"; // Import your Cart component
+import CartPage from "./components/CartPage";
 
 function Root() {
   return (

@@ -6,6 +6,11 @@
   margin-top: 40px;
   margin-bottom: 40px;
   border-color: #f9f1da;
+  overflow: hidden;
+}
+
+.videoSection__video {
+  width: 100%;
 }
 
 .videoSection__video {
