@@ -81,3 +81,16 @@
     width: 100%;
   }
 }
+
+@media (max-width: 650px) {
+  .videoSection__heading-sub h2 {
+    font-size: 65px;
+  }
+
+  .videoSection__heading-sub p {
+    padding-top: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

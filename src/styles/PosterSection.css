@@ -80,12 +80,7 @@
 
 @media (max-width: 650px) {
   .posterSection__card-info p {
-    font-size: 16px;
-  }
-  .posterSection__card-info p {
-    font-size: 14px;
-  }
-  .posterSection__card-info h2 {
+    font-family: "Euclid-regular";
     font-size: 16px;
   }
 }
