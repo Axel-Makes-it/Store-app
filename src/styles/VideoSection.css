@@ -126,3 +126,10 @@
     margin-right: 30px;
   }
 }
+
+@media (max-width: 375px) {
+  .videoSection__video {
+    width: 320px;
+    height: auto;
+  }
+}
