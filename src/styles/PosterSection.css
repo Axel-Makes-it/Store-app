@@ -82,4 +82,10 @@
   .posterSection__card-info p {
     font-size: 16px;
   }
+  .posterSection__card-info p {
+    font-size: 16px;
+  }
+  .posterSection__card-info h2 {
+    font-size: 18px;
+  }
 }
