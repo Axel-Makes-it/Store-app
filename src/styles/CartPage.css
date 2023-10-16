@@ -1,7 +1,9 @@
 .cartPage__section {
   background-color: #d9f9ec;
-  height: 100vh;
+  height: 120vh;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cartPage__cart {
