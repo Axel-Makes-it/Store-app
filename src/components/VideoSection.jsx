@@ -4,7 +4,7 @@ import "../styles/VideoSection.css";
 function VideoSection() {
   return (
     <section className="videoSection__section">
-      <div>
+      <div className="videoSection__video">
         <iframe
           width="960"
           height="500"
