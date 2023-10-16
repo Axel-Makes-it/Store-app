@@ -14,12 +14,14 @@ function Nav() {
           </Link>
           <li id="shop">shop</li>
         </ul>
-        <div>
-          <h2 className="nav__logo">
-            <img src={logoIcon} alt="logo" width={32} />
-            hydrant
-          </h2>
-        </div>
+        <Link to="/">
+          <div>
+            <h2 className="nav__logo">
+              <img src={logoIcon} alt="logo" width={32} />
+              hydrant
+            </h2>
+          </div>
+        </Link>
 
         <div>
           <ul className="nav__ul">
