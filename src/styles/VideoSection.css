@@ -5,6 +5,7 @@
   background-color: #ffffff;
   margin-top: 40px;
   margin-bottom: 40px;
+  border-color: #f9f1da;
 }
 
 .videoSection__heading {
@@ -13,9 +14,9 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-
   background-color: #f9f1da;
-  width: 960px;
+  width: 100%; /* Set to full width for screens smaller than 1460px */
+  max-width: 960px; /* Set a maximum width */
   height: 350px;
 }
 
@@ -59,4 +60,25 @@
 .learnMore-btn:hover {
   background-color: #4f4f4f;
   color: #ffffff;
+}
+
+/* Media query for screens smaller than 1460px */
+@media (max-width: 1460px) {
+  .videoSection__section {
+    flex-direction: column; /* Change to a column layout */
+  }
+  .videoSection__heading-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .videoSection__heading-sub button {
+    text-align: center;
+  }
+
+  .videoSection__heading {
+    width: 100%; /* Set to full width for smaller screens */
+  }
 }
