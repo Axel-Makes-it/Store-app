@@ -94,6 +94,10 @@
     width: 420px;
     height: 375px;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 800px) {
