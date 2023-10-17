@@ -103,10 +103,10 @@
 
 @media (max-width: 1098px) {
   .hero__heading-container h2 {
-    font-size: 30px;
+    font-size: 45px;
   }
   .hero__subHeading span {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
   }
 }
@@ -141,20 +141,20 @@
 
 @media (max-width: 700px) {
   .hero__heading-container h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .hero__subHeading span {
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
   }
 }
 
 @media (max-width: 653px) {
   .hero__heading-container h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .hero__subHeading span {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
   .hero__subHeading {
@@ -164,10 +164,10 @@
 
 @media (max-width: 653px) {
   .hero__heading-container h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .hero__subHeading span {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
   }
 
