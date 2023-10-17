@@ -183,6 +183,7 @@
 
   .hero__shopNow-btn {
     margin-top: 20px;
-    padding: 10px 45px;
+    margin-bottom: 15px;
+    padding: 10px 65px;
   }
 }
