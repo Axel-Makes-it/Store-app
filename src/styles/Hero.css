@@ -183,6 +183,21 @@
 
   .hero__shopNow-btn {
     margin-top: 20px;
+    padding: 10px 65px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero__heading-container h2 {
+    font-size: 25px;
+  }
+  .hero__subHeading span {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .hero__shopNow-btn {
+    margin-top: 20px;
     margin-bottom: 15px;
     padding: 10px 65px;
   }
