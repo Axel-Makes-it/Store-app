@@ -103,11 +103,10 @@
 
 @media (max-width: 1098px) {
   .hero__heading-container h2 {
-    font-size: 45px;
+    font-size: 30px;
   }
   .hero__subHeading span {
-    font-size: 18px;
-    text-align: center;
+    font-size: 16px;
   }
 }
 
@@ -136,6 +135,17 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+  }
+
+  .hero__subHeading span {
+    text-align: center;
+  }
+
+  .hero__heading-container h2 {
+    font-size: 45px;
+  }
+  .hero__subHeading span {
+    font-size: 22px;
   }
 }
 
